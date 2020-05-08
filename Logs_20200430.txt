@@ -1,0 +1,260 @@
+2020-04-30 13:37:48,381 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:48,409 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,825 [5e96cbc780b95c41f87e2ff5] ERROR logerror - 连接到机器人错误 TCP 192.168.188.5 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,839 [5e96cbc780b95c41f87e2ff5] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,853 [5e96cbc780b95c41f87e2ff9] ERROR logerror - 连接到机器人错误 TCP 192.168.188.9 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,866 [5e96cbc780b95c41f87e2ffa] ERROR logerror - 连接到机器人错误 TCP 192.168.188.10 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,878 [5e96cbc780b95c41f87e2ffa] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,895 [5e96cbc780b95c41f87e2ff9] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,906 [5e96cbc780b95c41f87e2ff8] ERROR logerror - 连接到机器人错误 TCP 192.168.188.8 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,918 [5e96cbc780b95c41f87e2ff8] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,944 [5e96cbc780b95c41f87e2ffd] ERROR logerror - 连接到机器人错误 TCP 192.168.188.13 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,957 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 连接到机器人错误 TCP 192.168.188.3 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,970 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:49,982 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:49,993 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,005 [5e96cbc780b95c41f87e2ffb] ERROR logerror - 连接到机器人错误 TCP 192.168.188.11 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,005 [5e96cbc780b95c41f87e2ffc] ERROR logerror - 连接到机器人错误 TCP 192.168.188.12 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,031 [5e96cbc780b95c41f87e2ffd] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,045 [5e96cbc780b95c41f87e2ff1] ERROR logerror - 连接到机器人错误 TCP 192.168.188.1 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,057 [5e96cbc780b95c41f87e2ff1] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,068 [5e96cbc780b95c41f87e2ff4] ERROR logerror - 连接到机器人错误 TCP 192.168.188.4 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,079 [5e96cbc780b95c41f87e2ffb] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,079 [5e96cbc780b95c41f87e2ffc] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,090 [5e96cbc780b95c41f87e2ff6] ERROR logerror - 连接到机器人错误 TCP 192.168.188.6 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,101 [5e96cbc780b95c41f87e2ff6] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,113 [5e96cbc780b95c41f87e2ff4] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:50,128 [5e96cbc780b95c41f87e2ff7] ERROR logerror - 连接到机器人错误 TCP 192.168.188.7 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:50,141 [5e96cbc780b95c41f87e2ff7] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:37:52,216 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 连接到机器人错误 TCP 192.168.188.3 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:37:52,230 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:00,773 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:00,786 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:01,341 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:01,355 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:03,629 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:03,644 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:04,693 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 连接到机器人错误 TCP 192.168.188.3 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:04,710 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,285 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 连接到机器人错误 TCP 192.168.188.3 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,301 [5e96cbc780b95c41f87e2ff3] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,308 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 连接到机器人错误 TCP 192.168.188.2 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,320 [5e96cbc780b95c41f87e2ff2] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,332 [5e96cbc780b95c41f87e2ffd] ERROR logerror - 连接到机器人错误 TCP 192.168.188.13 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,345 [5e96cbc780b95c41f87e2ffd] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,358 [5e96cbc780b95c41f87e2ffb] ERROR logerror - 连接到机器人错误 TCP 192.168.188.11 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,372 [5e96cbc780b95c41f87e2ffb] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,385 [5e96cbc780b95c41f87e2ff9] ERROR logerror - 连接到机器人错误 TCP 192.168.188.9 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,397 [5e96cbc780b95c41f87e2ff9] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,414 [5e96cbc780b95c41f87e2ff8] ERROR logerror - 连接到机器人错误 TCP 192.168.188.8 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,425 [5e96cbc780b95c41f87e2ff6] ERROR logerror - 连接到机器人错误 TCP 192.168.188.6 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,436 [5e96cbc780b95c41f87e2ff6] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,446 [5e96cbc780b95c41f87e2ff5] ERROR logerror - 连接到机器人错误 TCP 192.168.188.5 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,457 [5e96cbc780b95c41f87e2ff4] ERROR logerror - 连接到机器人错误 TCP 192.168.188.4 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,469 [5e96cbc780b95c41f87e2ff4] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,480 [5e96cbc780b95c41f87e2ffa] ERROR logerror - 连接到机器人错误 TCP 192.168.188.10 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,497 [5e96cbc780b95c41f87e2ff8] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,502 [5e96cbc780b95c41f87e2ff7] ERROR logerror - 连接到机器人错误 TCP 192.168.188.7 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,513 [5e96cbc780b95c41f87e2ff7] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,529 [5e96cbc780b95c41f87e2ff5] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,541 [5e96cbc780b95c41f87e2ffc] ERROR logerror - 连接到机器人错误 TCP 192.168.188.12 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,552 [5e96cbc780b95c41f87e2ffc] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,563 [5e96cbc780b95c41f87e2ff1] ERROR logerror - 连接到机器人错误 TCP 192.168.188.1 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
+2020-04-30 13:38:05,587 [5e96cbc780b95c41f87e2ff1] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:05,589 [5e96cbc780b95c41f87e2ffa] ERROR logerror - 机器人状态出错 原因是：can't connect TCP/IP
+System.Exception: can't connect TCP/IP
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 46
+   在 RobotClient.Common.RobotStatusTrigger.<>c__DisplayClass11_2.<StartTrigger>b__0() 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotStatusTrigger.cs:行号 104
+2020-04-30 13:38:08,032 [1] ERROR logerror - 连接到机器人错误 TCP 192.168.188.1 23
+System.Exception: can't connect TCP/IP
+   在 KRcc.Commu..ctor(String port)
+   在 RobotClient.Common.RobotOperationHandler.GetCommu(String ip, String protocol, String port) 位置 D:\cf\川崎机器人\KawasakiRobotClient\RobotClient\Common\RobotOperationHandler.cs:行号 41
