@@ -2,6 +2,9 @@ var readline = require('readline');
 var fs = require('fs');
 var momenttz = require('moment-timezone')
 var genExcel = require('./excel');
+var sendData = require('./httpHelper');
+var sendDataToDB=require('./influxDB')
+
 
 
 // const rl = readline.createInterface({
@@ -47,13 +50,39 @@ const viewChangeName = () => {
     }
 }
 
+const viewLog = () => {
+    try {
+        readLogFolder('./log')
+            .then((arr) => {
+                let newarr = []
+                arr.map(item => {
+                    newarr = newarr.concat(item)
+                })
+                return genExcel.genExcel(newarr);
+            })
+            .catch((err) => {
+                console.log('err', err);
+            })
+    } catch (e) {
+        console.log('err', e);
+    }
+}
 
 let MC_dateTime;
-let MC_latestDateTime;
 let MC_IP;
-let MC_latestIP;
 let MC_error;
 let errorCount = 0;
+
+const readLogFolder = folderPath => {
+    return new Promise((resolve, reject) => {
+
+        let allFunction = [];
+        fs.readdirSync(folderPath).forEach(filePath => {
+            allFunction.push(readLog(folderPath + '/' + filePath))
+        })
+        return resolve(Promise.all(allFunction));
+    })
+}
 
 const readLog = filepath => {
     return new Promise((resolve, reject) => {
@@ -66,7 +95,7 @@ const readLog = filepath => {
 
                 rl.on('line', (line) => {
                     //日期正则表达式
-                    let dateTimeReg = /\d{4}(\-|\/|\.)\d{1,2}\1\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2},\d{3}/g
+                    let dateTimeReg = /\d{4}(\-|\/|\.)\d{1,2}\1\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2}/g
                     let errorReg = /can\'t connect TCP\/IP/g
                     // let error2Reg = /TCP\s+d{1,2,3,4}\.d{1,2,3,4}\.d{1,2,3,4}\.d{1,2}/g
                     let errorIPReg = /TCP\s+\d+\.\d+\.\d+\.\d+/g
@@ -111,4 +140,7 @@ const readLog = filepath => {
 
 }
 
-viewChangeName();
+//单个文件
+// viewChangeName();
+//文件夹
+viewLog();

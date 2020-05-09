@@ -1,7 +1,19 @@
 var Excel = require('exceljs');
 
+const compare = (a, b) => {
+    if (a.dateTime < b.dateTime) {
+        return -1;
+    }
+    if (a.dateTime > b.dateTime) {
+        return 1;
+    }
+    return 0;
+}
+
 exports.genExcel = (data) => {
     return new Promise((resolve, reject) => {
+        data=data.sort(compare)
+
         var workbook = new Excel.Workbook();
 
         workbook.creator = 'WesChen';
@@ -30,7 +42,7 @@ exports.genExcel = (data) => {
 
 
         workbook.xlsx.writeFile('./data.xlsx').then(() => {
-            return resolve(true);
+            return resolve(data);
         })
     })
 }
