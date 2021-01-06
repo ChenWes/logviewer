@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@influxdata/influxdb-client": "^1.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "exceljs": "^3.9.0",
     "influx": "^5.5.1",
     "moment-timezone": "^0.5.28",
